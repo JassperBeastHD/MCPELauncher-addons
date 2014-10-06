@@ -73,7 +73,7 @@ void zhuoweisprint_tickHook(TouchScreenInput* touchScreenInput, void* player) {
 }
 
 float zhuoweisprint_getWalkingSpeedModifierHook(void* player) {
-	if (zhuoweisprint_sprinting) return 1.3f;
+	if (zhuoweisprint_sprinting) return 2.5f;
 	return 1.0f;
 }
 
